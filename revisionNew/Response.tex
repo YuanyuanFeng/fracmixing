@@ -1,0 +1,59 @@
+\documentclass[11pt]{letter}
+\usepackage{setspace,amsfonts,amsmath,fullpage,color}
+
+\makeatletter
+\let\@texttop\relax
+\makeatother
+
+\setlength{\textheight}{9in}
+
+\definecolor{DarkBlue}{rgb}{0,0,.8}
+
+\newcommand\tcb{\textcolor{DarkBlue}}
+\newcommand\tcr{\textcolor{red}}
+
+\begin{document}
+
+\signature{Yuanyuan Feng,\\Lei Li, \\ Jian-Guo Liu, \\ Xiaoqian Xu}
+
+\date{\hfill}
+\longindentation=0pt                       % needed to get closing flush left
+ 
+\begin{letter}{
+}
+
+\opening{\vspace{-.7in}
+{\Large \textbf{Response to Referee}}}
+\vspace{.2in}
+
+\tcb{We are very grateful to the referees for their time and effort in the review of our manuscript. }
+
+\textit{\textbf{Referee}}
+
+\tcb{Below, we address the comments point by point .}
+
+The authors have improved this manuscript. However, there are still
+some problems that need to be improved. Firstly, the authors have reproved Lemma 3.9, but there are still some doubts in the proof, e.g., how to ensure that $u(t)\ge u_0$ and $f$ is positive,
+
+\tcb{We should not have skipped the steps. We have added several sentences to clarify this. }
+
+ and the equation $u_0+\frac{1}{\Gamma(\gamma)}\int_{t_2-t_1}^{t_2}(t_2-s)^{\gamma-1}f(u^0)ds=u^1(t_1)$ is not correct. 
+ 
+ \tcb{What we had was misleading. By a change of variables, $u_0+\frac{1}{\Gamma(\gamma)}\int_{t_2-t_1}^{t_2}(t_2-s)^{\gamma-1}f(u^0)ds=u_0+\frac{1}{\Gamma(\gamma)}\int_0^{t_1}(t_1-\tau)^{\gamma-1}f(u^0)d\tau=u^1(t_1)$.}
+ 
+ Secondly, in Proposition 5.8, the
+authors add the scope of $p$, but according to the proof this range seems unreasonable.
+
+\tcb{We added several more sentences in the proof to justify this range. To understand the range of $p$, one can consider the ODE $u_t=-u^p$, for which the claim of this proposition is always true for any $p\in \mathbb{R}$. Here the only condition we need for $f(u)=Au^p$ ($A<0$) is local Lipschitz on $(0,\infty)$, which is true for all $p\in\mathbb{R}$.}
+
+\addtolength{\medskipamount}{-.8\medskipamount}
+\closing{Sincerely,}
+
+\newdimen\indentedwidth
+\indentedwidth=\textwidth
+\advance\indentedwidth -\longindentation
+
+\end{letter}
+
+
+\end{document}

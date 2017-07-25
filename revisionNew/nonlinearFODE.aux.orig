@@ -1,0 +1,136 @@
+\relax 
+\citation{gm97,df02,kst06,mpg07,diethelm10,ala16,taylorremarks}
+\citation{kst06}
+\citation{munkhammar2004riemann,drapaca2012fractional}
+\citation{caputo1999diffusion}
+\citation{zaslavsky2002chaos}
+\citation{liliu16}
+\citation{ala16}
+\citation{liliu16}
+\citation{df02,diethelm10}
+\citation{liliu16}
+\@writefile{toc}{\contentsline {section}{\tocsection {}{1}{Introduction}}{1}}
+\citation{liliu16}
+\citation{liliu16}
+\citation{liliu16}
+\newlabel{eq:ode1}{{1.1}{2}}
+\@writefile{toc}{\contentsline {section}{\tocsection {}{2}{Preliminaries}}{2}}
+\newlabel{sec:pre}{{2}{2}}
+\@writefile{toc}{\contentsline {subsection}{\tocsubsection {}{2.1}{Fractional derivatives}}{2}}
+\newlabel{def:rightlimit}{{2.1}{2}}
+\citation{liliu16}
+\citation{liliu16}
+\citation{ala16}
+\citation{gm97,df02,kst06,mpg07,diethelm10,taylorremarks}
+\citation{df02,kst06,diethelm10}
+\citation{liliu16}
+\citation{liliu16}
+\newlabel{def:caputo}{{2.2}{3}}
+\newlabel{eq:captra}{{2.3}{3}}
+\newlabel{eq:capint}{{2.4}{3}}
+\newlabel{eq:vol}{{2.5}{3}}
+\@writefile{toc}{\contentsline {subsection}{\tocsubsection {}{2.2}{Existence and uniqueness of solutions to \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces 1.1\hbox {}\unskip \@@italiccorr )}}}}{3}}
+\citation{liliu16}
+\citation{mf71}
+\citation{mf71}
+\citation{mf71}
+\newlabel{pro:exist}{{2.6}{4}}
+\@writefile{toc}{\contentsline {section}{\tocsection {}{3}{Some Basic properties of solutions to \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces 1.1\hbox {}\unskip \@@italiccorr )}}}}{4}}
+\newlabel{sec:basicpro}{{3}{4}}
+\@writefile{toc}{\contentsline {subsection}{\tocsubsection {}{3.1}{Regularity and monotonicity of solutions}}{4}}
+\newlabel{lmm:regu}{{3.1}{4}}
+\newlabel{eq:der}{{3.1}{4}}
+\newlabel{thm:behavior}{{3.3}{4}}
+\citation{weis75}
+\citation{cn79,weis75}
+\newlabel{thm:mon}{{3.4}{5}}
+\newlabel{lmm:pos}{{3.5}{5}}
+\newlabel{eq:varcoevol}{{3.3}{5}}
+\citation{mg00,hms11}
+\citation{mg00}
+\citation{widder41}
+\citation{cn79}
+\citation{mf71}
+\citation{mf71}
+\citation{weis75}
+\citation{weis75}
+\citation{liliu16}
+\citation{by12}
+\newlabel{pro:nointersect}{{3.7}{7}}
+\newlabel{rmk:nonintersect}{{3.8}{7}}
+\@writefile{toc}{\contentsline {subsection}{\tocsubsection {}{3.2}{Blow-up criterion}}{7}}
+\newlabel{lmm:toinfty}{{3.9}{7}}
+\newlabel{pro:blowupcriteria}{{3.10}{7}}
+\citation{liliu16}
+\citation{liliu16}
+\@writefile{toc}{\contentsline {section}{\tocsection {}{4}{Comparison principles}}{8}}
+\newlabel{sec:comp}{{4}{8}}
+\newlabel{pro:comp}{{4.1}{8}}
+\newlabel{cor:g}{{4.3}{9}}
+\@writefile{toc}{\contentsline {section}{\tocsection {}{5}{Blowup and long time behavior for a class of FODEs}}{9}}
+\newlabel{sec:specialcase}{{5}{9}}
+\newlabel{eq:ode2}{{5.1}{9}}
+\@writefile{toc}{\contentsline {subsection}{\tocsubsection {}{5.1}{Finite time Blow-up}}{9}}
+\newlabel{thm:increasing}{{5.1}{9}}
+\citation{roberts1996growth}
+\citation{roberts1996growth}
+\newlabel{subsec:bounds}{{5.2}{10}}
+\@writefile{toc}{\contentsline {subsection}{\tocsubsection {}{5.2}{The bounds of blowup time}}{10}}
+\newlabel{grow}{{5.3}{10}}
+\citation{roberts1993volterra}
+\newlabel{buT}{{5.3}{11}}
+\citation{roberts1996growth}
+\citation{roberts1993volterra,roberts1996growth}
+\citation{roberts1996growth}
+\citation{roberts1993volterra,roberts1996growth}
+\newlabel{rate}{{5.6}{13}}
+\newlabel{ratea}{{5.6}{13}}
+\@writefile{toc}{\contentsline {subsection}{\tocsubsection {}{5.3}{Other cases}}{13}}
+\newlabel{pro:negA}{{5.8}{13}}
+\citation{cn81}
+\@writefile{toc}{\contentsline {section}{\tocsection {}{6}{Discretized equations and numerical simulations}}{15}}
+\newlabel{sec:discrete}{{6}{15}}
+\newlabel{eq:schemeInt}{{6.1}{15}}
+\citation{lx07,llx11}
+\citation{roberts1996growth}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Solutions curves for $f(u)=Au^2$ with $u(0)=u_0$. (a). $A=1, u_0=0.12 ,\gamma =0.6$; (b). $A=1, u_0=1.2, \gamma =0.6$. }}{19}}
+\newlabel{fig:rep}{{1}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Blowup time versus $\gamma $. The red solid line describes the numerical results of the blowup time. The blue dotted line is the estimated upper bound and the green dashed line is the lower bound, provided by Theorem 5.3\hbox {}. (a). $A=1, u_0=0.12$; (b). $A=1, u_0=1.2$. }}{19}}
+\newlabel{fig:blowuptime}{{2}{19}}
+\@writefile{toc}{\contentsline {section}{\tocsection {}{7}{Appendix}}{19}}
+\citation{bleistein1975asymptotic}
+\citation{bleistein1975asymptotic}
+\bibstyle{unsrt}
+\bibdata{nonlinearFODE}
+\bibcite{gm97}{1}
+\bibcite{df02}{2}
+\bibcite{kst06}{3}
+\newlabel{23}{{7.2}{20}}
+\bibcite{mpg07}{4}
+\bibcite{diethelm10}{5}
+\bibcite{ala16}{6}
+\bibcite{taylorremarks}{7}
+\bibcite{munkhammar2004riemann}{8}
+\bibcite{drapaca2012fractional}{9}
+\bibcite{caputo1999diffusion}{10}
+\bibcite{zaslavsky2002chaos}{11}
+\bibcite{liliu16}{12}
+\bibcite{mf71}{13}
+\bibcite{weis75}{14}
+\bibcite{cn79}{15}
+\bibcite{mg00}{16}
+\bibcite{hms11}{17}
+\bibcite{widder41}{18}
+\bibcite{by12}{19}
+\bibcite{roberts1996growth}{20}
+\bibcite{roberts1993volterra}{21}
+\bibcite{cn81}{22}
+\bibcite{lx07}{23}
+\bibcite{llx11}{24}
+\bibcite{bleistein1975asymptotic}{25}
+\newlabel{tocindent-1}{0pt}
+\newlabel{tocindent0}{15.01373pt}
+\newlabel{tocindent1}{20.88867pt}
+\newlabel{tocindent2}{34.5pt}
+\newlabel{tocindent3}{0pt}
+\@writefile{toc}{\contentsline {section}{\tocsection {}{}{References}}{21}}
